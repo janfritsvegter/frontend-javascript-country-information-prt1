@@ -11,7 +11,19 @@ main {
     max-width: 1200px;
     margin: 0 auto;
 }
-
+header {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+article {
+    margin-top: 25px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
 .title{
     font-family: "Gochi Hand", sans-serif;
     font-size: 50pt;
@@ -51,6 +63,17 @@ li {
 
 .country-name {
     font-size: 13pt;
+}
+span.country-name {
+    font-family: "Gochi Hand", sans-serif;
+    font-size: 25pt;
+}
+#country-info{
+    margin-top: 25px;
+    border-radius: 10px;
+    border: 1px solid lightgray;
+    background-color: #FAFAFA;
+    padding: 30px;
 }
 
 .blue {
