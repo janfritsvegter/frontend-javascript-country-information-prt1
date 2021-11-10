@@ -1,0 +1,105 @@
+*,
+*::before,
+*::after {
+    margin: 0;
+    padding: 0;
+}
+
+@import url('https://fonts.googleapis.com/css2?family=Gochi+Hand&display=swap');
+
+main {
+    max-width: 1200px;
+    margin: 0 auto;
+}
+header {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+article {
+    margin-top: 25px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.title{
+    font-family: "Gochi Hand", sans-serif;
+    font-size: 50pt;
+    text-align: center;
+    margin-top: 25px;
+}
+p{
+    font-family: Arial;
+    font-size: 12pt;
+}
+
+li {
+    margin: 10px;
+}
+
+.img-flag {
+    margin-right: 5px;
+}
+
+.countries-container {
+    list-style-type: none;
+    column-count: 3;
+    max-width: 1200px;
+    border-radius: 4px;
+    border: 1px solid lightgray;
+    background-color: #FAFAFA;
+    padding: 30px;
+}
+
+.flex-row {
+    max-width: 400px;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: flex-start;
+}
+
+.country-name {
+    font-size: 13pt;
+}
+span.country-name {
+    font-family: "Gochi Hand", sans-serif;
+    font-size: 25pt;
+}
+#country-info{
+    margin-top: 25px;
+    border-radius: 10px;
+    border: 1px solid lightgray;
+    background-color: #FAFAFA;
+    padding: 30px;
+}
+
+.blue {
+    color: #5174c6;
+}
+
+.light-green {
+    color: #66c786;
+}
+
+.dark-green {
+    color: #488447;
+}
+/*   */
+.red {
+    color: #d54858;
+}
+
+.yellow {
+    color: #ffd600;
+}
+
+.purple {
+    color: #a94cbe;
+}
+
+.black {
+    color: black;
+}
